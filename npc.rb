@@ -6,7 +6,6 @@ class Person
 
   def name 
     name = @name_personage
-    puts name
   end
 
   def health_up 
@@ -18,11 +17,11 @@ class Person
   end
 
   def info_about_npc 
-    puts "Name personage: #{@name_personage}, health: #{@health}"
+    "Name personage: #{@name_personage}, health: #{@health}"
   end
 end
 
-npc = Person.new('artem')
-npc.name
-npc.health_up
-npc.info_about_npc
+# npc = Person.new('artem')
+# npc.name
+# npc.health_up
+# npc.info_about_npc
