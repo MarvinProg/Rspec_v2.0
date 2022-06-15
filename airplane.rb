@@ -12,10 +12,10 @@ class Airplane
   end
 
   def range_fly 
-    0
+    @fuel_for_airplane * GALON_IN_MILLES
   end
 end
 
-airplane = Airplane.new
-airplane.add_fuel_for_airplane 7
-puts "Range airplane is #{airplane.range_fly}"
+# airplane = Airplane.new
+# airplane.add_fuel_for_airplane 7
+# puts "Range airplane is #{airplane.range_fly}"
